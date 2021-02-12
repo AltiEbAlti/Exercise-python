@@ -1,0 +1,9 @@
+n, l, k = map(int, input().split())
+b = l + k
+c = l
+
+while (n-1)!=0:
+    c = c+b
+    n-=1
+    b=b+k
+print(c)
